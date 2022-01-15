@@ -66,12 +66,13 @@ nav {
    
 }
 .navigation {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255,255,255,0.8);
     position: absolute;
-    right: -60%;
+    right: -70%;
     top: 0;
     height: 100vh;
-    width: 60%; 
+    width: 70%; 
+
     transition: all 0.5s;
 
 
@@ -79,15 +80,21 @@ nav {
 }
 
 .navigation > ul {
-    margin-top: 4em;
-    padding-left: 1em;
+    margin-top: 7.4em;
+    margin-left: 2rem;
 }
 .nav-links {
-    padding-bottom: 1em;
+    padding-bottom: 40px;
+    text-transform: uppercase;
 }
 
 .close-btn {
     position: absolute;
-    top: 1.5em;
-    right: 1em;
+    top: 1.8em;
+    right: 1.5em;
+}
+
+.logo {
+    
+    
 }

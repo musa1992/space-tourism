@@ -9,5 +9,5 @@ menuIcon.addEventListener('click', ()=> {
 })
 
 closeMenuBtn.addEventListener('click', ()=>{
-    mobileMenu.style.right = "-60%"
+    mobileMenu.style.right = "-70%"
 })
