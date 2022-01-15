@@ -4,6 +4,7 @@
 
 body {
     box-sizing: border-box;
+    background-color: #0B0D17;
 }
 
 ul {
@@ -21,6 +22,14 @@ ol {
 }
 .sub-heading {
     font-family: 'Barlow Condensed', 'serif';
+}
+
+.primary-text {
+    color: #D0D6F9;
+}
+
+.secondary-text {
+    color: #FFFFFF;
 }
 
 h1 {
@@ -66,7 +75,7 @@ nav {
    
 }
 .navigation {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.2);
     position: absolute;
     right: -70%;
     top: 0;
@@ -94,7 +103,8 @@ nav {
     right: 1.5em;
 }
 
-.logo {
-    
-    
+/** main section of home page **/
+
+.hero-section {
+
 }
