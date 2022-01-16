@@ -5,49 +5,69 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
-<section>
-  <div>
-      <div>
-        <p>01 Pick your destination</p>
+    <main class="destination">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <img src="/starter-code/assets/shared/logo.svg" alt="">
+          </div>
+           <div class="navigation" id="navigation">
+             <ul>
+               <ol class="nav-links"><a href="">00 Home</a></ol>
+               <ol class="nav-links"><a href="">01 Destination</a></ol>
+               <ol class="nav-links"><a href="">02 Crew</a></ol>
+               <ol class="nav-links"><a href="">03 Technology</a></ol>
+               <ol class="close-btn" id="close-menu"><img src="/starter-code/assets/shared/icon-close.svg" alt="" srcset=""></ol>
+             </ul>
+           </div>
+           <div class="mobile-menu" id="mobile-menu">
+             <img src="/starter-code/assets/shared/icon-hamburger.svg" alt="">
+           </div>
+         </nav>
+        <section class="destination-hero">
+          <div>
+              <div>
+                <p class="primary-text hero-section__title">01 Pick your destination</p>
+              </div>
+              <div class="destination-img">
+                <img src="/starter-code/assets/destination/image-moon.png" alt="" srcset="">
+              </div>
+          </div>
+            <div class="info-section">
+              <div class="page-nav">
+                <ul class= "primary-text">
+                  <ol>Moon</ol>
+                  <ol>Mars</ol>
+                  <ol>Titan</ol>
+                  <ol>Europa</ol>
+                </ul>
+              </div>
+              <div class="info-section__text">
+                <p class="secondary-text destination-title">EUROPA</p>
+                <p class="primary-text">The smallest of the four Galilean moons orbiting Jupiter, Europa is a
+                  winter lover’s dream. With an icy surface, it’s perfect for a bit of
+                  ice skating, curling, hockey, or simple relaxation in your snug
+                  wintery cabin.</p>
+              </div>
+              <div>
+                <div class="distance">
+                  <p class="primary-text avg-distance">AVG.DISTANCE</p>
+                  <p class="secondary-text">628 MIL.KM</p>
+                </div>
+                <div class="time">
+                  <p class="primary-text est-time">Est. travel time</p>
+                  <p class="secondary-text years">3 years</p>
+                </div>
+              </div>
+            </div>
+        </section>
       </div>
-      <div>
-        <img src="/starter-code/assets/destination/image-moon.png" alt="" srcset="">
-      </div>
-  </div>
-    <div>
-      <nav>
-        <ul>
-          <ol>Moon</ol>
-          <ol>Mars</ol>
-          <ol>Titan</ol>
-        </ul>
-      </nav>
-      <div>
-        <p>EUROPA</p>
-        <p>The smallest of the four Galilean moons orbiting Jupiter, Europa is a
-          winter lover’s dream. With an icy surface, it’s perfect for a bit of
-          ice skating, curling, hockey, or simple relaxation in your snug
-          wintery cabin.</p>
-      </div>
-      <div>
-        <div>
-          <p>AVG.DISTANCE</p>
-          <p>628 MIL.KM</p>
-        </div>
-        <div>
-          <p>Est. travel time</p>
-          <p>3 years</p>
-        </div>
-      </div>
-      
-     
-    
-    </div>
-
-</section>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
