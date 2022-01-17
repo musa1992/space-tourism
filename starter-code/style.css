@@ -99,8 +99,6 @@ nav {
 
     transition: all 0.5s;
 
-
-
 }
 
 .navigation > ul {
@@ -116,6 +114,10 @@ nav {
     position: absolute;
     top: 1.8em;
     right: 1.5em;
+}
+.logo {
+    width: 40px;
+    height: 40px;
 }
 
 /** main section of home page **/
@@ -150,6 +152,16 @@ nav {
     border-radius: 50%;
 }
 
+
+.hero-img {
+    margin-top: 1.5rem;
+    margin-bottom: 1em;
+}
+
+.page-info-text {
+    margin: 1em 0;
+}
+
 /** destinations ***/
 
 .destination {
@@ -162,10 +174,7 @@ nav {
     margin-top: 20px;
 }
 
-.hero-img {
-    margin-top: 1.5rem;
-    margin-bottom: 1em;
-}
+
 
 .destination-img > img {
    width: 170px;
@@ -179,7 +188,7 @@ nav {
 
 .page-nav {
     width: 70%;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 .page-nav > ul {
@@ -291,4 +300,36 @@ nav {
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+}
+
+@media(min-width: 768px){
+   .mobile-menu {
+       display: none;
+   }
+   .close-btn {
+       display: none;
+   }
+   .navigation {
+       right: 0;
+       height: 60px;
+   }
+
+   .navigation > ul {
+       height: 100%;
+       width: 450px;
+       margin: 0;
+       padding-left: 2em;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+   .nav-links {
+       padding-bottom: 0;
+       padding-right: .9em;
+       
+   }
+   .nav-links > a {
+       color: #D0D6F9;
+   }
+
 }
