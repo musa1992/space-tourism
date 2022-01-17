@@ -266,3 +266,29 @@ nav {
     color: #FFFFFF;
     margin-top: .25em;
 }
+
+/** technology**/
+
+.technology {
+    background-image: url(/starter-code/assets/technology/background-technology-mobile.jpg);
+    background-size: cover;
+}
+
+.technology-img {
+    width: 110%;
+}
+
+.nav-technology-page {
+    margin-bottom: 1em;;
+}
+.nav-tech {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #383B4B;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
