@@ -66,7 +66,7 @@ main {
 }   
 
 .container {
-    width: 90%;
+    max-width: 90%;
     margin: 0 auto;
     
 }
@@ -131,7 +131,7 @@ nav {
 .hero-section__cta {
     margin-top: 35px;
     margin-bottom: 35px;
-    font-size: 80px;
+    font-size: 5rem;
     text-transform: uppercase;
 }
 
@@ -311,7 +311,7 @@ nav {
    }
    .navigation {
        right: 0;
-       height: 60px;
+       height: 96px;
    }
 
    .navigation > ul {
@@ -330,6 +330,65 @@ nav {
    }
    .nav-links > a {
        color: #D0D6F9;
+   }
+
+   .container {
+       width: 60%;
+   }
+
+   .logo,.page-title {
+        position: absolute;
+        left: 40px;
+      
+   }
+   .logo {
+       width: 48px;
+       height: 48px;
+       top: 24px;
+
+   }
+
+   /** index page **/
+
+   .hero-section__info{
+       margin-top: 190px;
+       margin-bottom: 200px;
+   }
+   
+   .hero-section__cta {
+       font-size: 9.375rem;
+   }
+   .hero-section__title {
+       font-size: 20px;
+   }
+   .hero-section__text {
+       line-height: 1.5;
+       font-size: 1.5rem;
+   }
+
+   .explore {
+       width: 242px;
+       height: 242px;
+   }
+   .explore-cta {
+       font-size: 2rem;
+   }
+
+
+   /** destination -page **/
+
+
+   .page-title {
+       top: 136px;
+   }
+
+   .hero-img {
+       margin-top: 13.75rem;
+   }
+
+   .destination-img > img{
+       width: 300px;
+       height: 300px;
    }
 
 }
