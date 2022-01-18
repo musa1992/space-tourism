@@ -303,7 +303,6 @@ nav {
     height: 40px;
     border-radius: 50%;
     border: 1px solid #383B4B;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -453,6 +452,41 @@ nav {
     background-size: cover;
     }
 
+    .technology-img {
+       width: 100%;
+       height: 310px;
+       display: flex;
+       justify-content: space-evenly;
+       
+    }
+
+    .technology-img > img {
+        width: 200%;
+        height: 310px;
+    }
+
+    .nav-tech {
+        width: 58px;
+        height: 58px;
+    }
+
+    .technology-info {
+        margin-top: 3rem;
+    }
+
+    .technology-title {
+        font-size: 2.5rem;
+        margin: .5em 0;
+    }
+    .technology-text {
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+
+    .technology-info-1 {
+        font-size: 26px;
+    }
+
     /** crew **/
 
     .crew {
@@ -460,5 +494,6 @@ nav {
         background-size: cover;
     }
 
+   
 
 }
