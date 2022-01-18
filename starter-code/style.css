@@ -25,6 +25,14 @@ ol {
     justify-content: space-around;
 }
 
+.page-title {
+    text-transform: uppercase;
+}
+
+.page-title__span {
+    color: grey;
+}
+
 /*typography***/
 .heading {
     font-family: 'Bellefair','serif';
@@ -302,6 +310,8 @@ nav {
     color: #FFFFFF;
 }
 
+/** Mid size screen tablets ****/
+
 @media(min-width: 768px){
    .mobile-menu {
        display: none;
@@ -347,8 +357,18 @@ nav {
        top: 24px;
 
    }
+   .page-nav {
+       margin-top : 3em;
+       margin-bottom: 3em;
+   }
 
    /** index page **/
+
+   .home {
+    background-image: url('/starter-code/assets/home/background-home-tablet.jpg');
+    background-size: cover;
+}
+
 
    .hero-section__info{
        margin-top: 190px;
@@ -376,7 +396,10 @@ nav {
 
 
    /** destination -page **/
-
+   .destination {
+    background-image: url(/starter-code/assets/destination/background-destination-tablet.jpg);
+    background-size: cover;
+}
 
    .page-title {
        top: 136px;
@@ -390,5 +413,52 @@ nav {
        width: 300px;
        height: 300px;
    }
+
+   .destination-text {
+       font-size: 1.5rem;
+       line-height: 1.2;
+   }
+
+   .destination-footer {
+       display: flex;
+       justify-content: space-around;
+   }
+   .destination-title {
+       font-size: 5rem;
+       margin-bottom: 2rem;
+   }
+
+   .destination-text{
+       padding-bottom: 2em;
+   }
+   .destination-mil-year{
+     margin-top: 1em;
+     font-size: 1.75rem;
+   }
+
+   .destination-footer {
+       margin-top: 2.5em;
+   }
+
+   .avg-distance,.est-time {
+       font-size: 1em;
+   }
+
+
+
+
+   /** technology **/
+   .technology {
+    background-image: url(/starter-code/assets/technology/background-technology-tablet.jpg);
+    background-size: cover;
+    }
+
+    /** crew **/
+
+    .crew {
+        background-image: url(/starter-code/assets/crew/background-crew-tablet.jpg);
+        background-size: cover;
+    }
+
 
 }
