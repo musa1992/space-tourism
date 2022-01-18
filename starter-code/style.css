@@ -494,6 +494,28 @@ nav {
         background-size: cover;
     }
 
+    .hero-crew-container {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 98vh;
+    }
+    .crew-image {
+        height: 570px;
+        margin-top: -20px;
+    }
+
+    .crew-image > img {
+        height: 100%;
+    }
+    
+    .crew-name {
+        font-size: 2.5rem;
+    }
+
+    .crew-position {
+        font-size: 1.5rem;
+    }
+   
    
 
 }
