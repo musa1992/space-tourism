@@ -155,19 +155,13 @@ nav {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color: #FFFFFF;
     border-radius: 50%;
-    border-width: 50px;
-    border-color: transparent;
-    border-style: solid;
-    transition: border-color 600ms ease-in-out;
-    cursor: pointer;
+   
 }
-.explore:hover {
-    border-color: #979797;
-}
+
 
 
 .hero-img {
@@ -602,6 +596,20 @@ nav {
         font-size: 1.125rem;
     }
 
+    .explore{
+        width: 200px;
+        height: 200px;
+        border-width: 50px;
+        border-color: transparent;
+        border-style: solid;
+        transition: border-color 600ms ease-in-out;
+        cursor: pointer;
+    }
+    .explore:hover {
+        border-color: #979797;
+    }
+    
+
     /** destination-page **/
 
     .hero-destination {
@@ -689,6 +697,11 @@ nav {
       } 
       .nav-tech{
           margin-bottom: 1em;
+          cursor: pointer;
+          transition: border-color 350ms ease-in-out;
+      }
+      .nav-tech:hover{
+          border-color: #FFFFFF;
       }
       
       /*** crew **/
