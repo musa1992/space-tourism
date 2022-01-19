@@ -149,15 +149,24 @@ nav {
 .hero-section__info {
     margin-bottom: 100px;
 }
+
 .explore{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-color: #FFFFFF;
     border-radius: 50%;
+    border-width: 50px;
+    border-color: transparent;
+    border-style: solid;
+    transition: border-color 600ms ease-in-out;
+    cursor: pointer;
+}
+.explore:hover {
+    border-color: #979797;
 }
 
 
@@ -558,7 +567,7 @@ nav {
         transition: border-bottom-color 350ms ease-in-out;
     }
     .nav-links:hover{
-        border-bottom-color: grey;
+        border-bottom-color: #979797;
     }
 
     .logo {
