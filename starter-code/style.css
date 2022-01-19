@@ -515,6 +515,8 @@ nav {
         font-size: 1.5rem;
     }
 }
+ /** desktop style ***/
+
 
 @media(min-width: 1024px){
     .container {
@@ -546,10 +548,28 @@ nav {
 
     }
 
+    .nav-links {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-bottom-color: transparent;
+        transition: border-bottom-color 350ms ease-in-out;
+    }
+    .nav-links:hover{
+        border-bottom-color: grey;
+    }
+
     .logo {
         margin-top: 1rem;
     }
     /**index page **/
+    .home {
+        background-image: url('/starter-code/assets/home/background-home-tablet.jpg');
+        background-size: cover;
+    }
+    
 
     .hero-section {
         display: flex;
