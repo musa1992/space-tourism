@@ -625,6 +625,18 @@ nav {
         margin-top: 10em;
 
     }
+
+    .destination-tab {
+        padding-bottom: .5em;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        border-bottom-color: transparent;
+        transition: border-bottom-color 350ms ease-in-out;
+        cursor: pointer;
+    }
+    .destination-tab:hover{
+        border-bottom-color: #979797;
+    }
     .destination-img__container{
         width: 445px;
     }
