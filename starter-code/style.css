@@ -662,5 +662,34 @@ nav {
           margin-bottom: 1em;
       }
       
+      /*** crew **/
+      .hero-crew-container {
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          justify-content: space-between;
+      }
+      .crew-image{
+          width: 555px;
+          height: 450px;
+          margin-top: 90px;
+          
+      }
+      .crew-container-1 {
+          margin-top: 5rem;
+          margin-left: 1.4rem;
+          height: 400px;
+          position: relative;
+      }
+      .crew-info-container {
+          text-align: left;
+      }
+
+      .crew-nav {
+          justify-content: space-between;
+          width: 30%;
+          position: absolute;
+          bottom: 0;
+      }
 
 }
