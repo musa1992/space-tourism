@@ -615,6 +615,52 @@ nav {
       .info-section__text {
           text-align: left;
       }
-   
+
+      /**technology **/
+
+      .technology-hero {
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          align-items: center;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+         
+      }
+
+      .technology-img {
+          /* width: 515px; */
+          margin-top: 0;
+      }
+      .technology-info {
+          text-align: left;
+         
+      }
+      .technology-container-1 {
+          width: 40%;
+          display: flex;
+         
+      }
+
+      .technology-title{
+          margin: 0;
+          padding-bottom: 10px ;
+          padding-top: 1px;
+      }
+
+      .technology-text {
+          font-size: 1em;
+          line-height: 1.3;
+      }
+      .nav-technology-page{
+          display: block;
+          margin-top: 2.5em;
+         margin-left: 1em;
+          
+      } 
+      .nav-tech{
+          margin-bottom: 1em;
+      }
+      
 
 }
