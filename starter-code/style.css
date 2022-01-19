@@ -521,6 +521,16 @@ nav {
         width: 80%;
     }
 
+    .page-nav {
+        margin-left: 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .page-title {
+        left: 150px;
+    }
+
 
     /** navigation **/ 
 
@@ -533,6 +543,7 @@ nav {
     .navigation > ul {
         padding-left: 2rem;
         width: 80%;
+
     }
 
     .logo {
@@ -561,5 +572,49 @@ nav {
     .hero-section__text {
         font-size: 1.125rem;
     }
+
+    /** destination-page **/
+
+    .hero-destination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .info-section {
+        width: 445px;
+        margin-top: 10em;
+
+    }
+    .destination-img__container{
+        width: 445px;
+    }
+    .destination-text {
+        padding-bottom: 1em;
+        font-size: 1em;
+    }
+
+    .destination-mil-year{
+        margin-top: 0;
+        font-size: 1.75rem;
+      }
+   
+      .destination-footer {
+          margin-top: .5em;
+          justify-content: space-between;
+          width: 80%;
+      }
+      .distance,.time {
+        text-align: left;
+      }
+      .destination-title {
+          margin-bottom: 5px;
+      }
+
+      .info-section__text {
+          text-align: left;
+      }
+   
 
 }
