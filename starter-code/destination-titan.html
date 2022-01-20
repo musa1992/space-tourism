@@ -5,33 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
+  <main class="destination">
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="/starter-code/assets/shared/logo.svg" alt="">
+        </div>
+         <div class="navigation" id="navigation">
+           
+            <ul>
+              <ol class="nav-links"><a href="/starter-code/index.html">00 Home</a></ol>
+              <ol class="nav-links"><a href="/starter-code/destination-europa.html">01 Destination</a></ol>
+              <ol class="nav-links"><a href="/starter-code/crew-commander.html">02 Crew</a></ol>
+              <ol class="nav-links"><a href="/starter-code/technology-capsule.html">03 Technology</a></ol>
+              <ol class="close-btn" id="close-menu"><img src="/starter-code/assets/shared/icon-close.svg" alt="" srcset=""></ol>
+            </ul>
+          
+         </div>
+         <div class="mobile-menu" id="mobile-menu">
+           <img src="/starter-code/assets/shared/icon-hamburger.svg" alt="">
+         </div>
+       </nav>
+      <section class="hero hero-destination">
+        <div class="destination-img__container">
+            <div>
+              <p class="primary-text page-title"><span class="page-title__span">01</span> Pick your destination</p>
+            </div>
+            <div class="destination-img hero-img">
+              <img src="/starter-code/assets/destination/image-titan.png" alt="" srcset="">
+            </div>
+        </div>
+          <div class="info-section">
+            <div class="page-nav">
+              <ul class= "primary-text">
+                <ol class="destination-tab"><a href="/starter-code/destination-moon.html">Moon</a></ol>
+                <ol class="destination-tab"><a href="/starter-code/destination-mars.html">Mars</a></ol>
+                <ol class="destination-tab"><a href="/starter-code/destination-europa.html">Europa</a></ol>
+                <ol class="destination-tab"><a href="/starter-code/destination-titan.html">Titan</a></ol>
+              </ul>
+            </div>
+            <div class="info-section__text">
+              <p class="secondary-text destination-title">TITAN</p>
+              <p class="primary-text destination-text">The only moon known to have a dense atmosphere other than Earth, Titan 
+                is a home away from home (just a few hundred degrees colder!). As a 
+                bonus, you get striking views of the Rings of Saturn.
+                </p>
+            </div>
+            <div class="destination-footer">
+              <div class="distance">
+                <p class="primary-text avg-distance">AVG.DISTANCE</p>
+                <p class="secondary-text destination-mil-year">1.6 BIL.KM</p>
+              </div>
+              <div class="time">
+                <p class="primary-text est-time">Est. travel time</p>
+                <p class="secondary-text years destination-mil-year">7 years</p>
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
+  </main>
+  <script src="main.js"></script>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  
 
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Titan
-
-  The only moon known to have a dense atmosphere other than Earth, Titan 
-  is a home away from home (just a few hundred degrees colder!). As a 
-  bonus, you get striking views of the Rings of Saturn.
-
-  Avg. distance
-  1.6 bil. km
-
-  Est. travel time
-  7 years
+ 
 </body>
 </html>
